@@ -1,0 +1,769 @@
+{
+ "titulo": "THC Navidad - montaje visual (sin música ni texto)",
+ "fps": 30,
+ "resolucion": "1080x1920",
+ "grade": {
+  "contrast": 1.05,
+  "saturation": 1.1,
+  "gamma": 1.0
+ },
+ "clips": [
+  {
+   "id": "01",
+   "nota": "GANCHO: duende a cámara + punch zoom en la risa",
+   "src": "IMG_7043.MOV",
+   "pieces": [
+    {
+     "in": 0.3,
+     "out": 1.8,
+     "speed": 1
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.4,
+   "zoom": [
+    [
+     0,
+     1.1
+    ],
+    [
+     1.5,
+     1.2,
+     "linear"
+    ]
+   ],
+   "punch": [
+    [
+     0.5,
+     0.3,
+     0.3
+    ]
+   ],
+   "whip_out": "right"
+  },
+  {
+   "id": "02",
+   "nota": "Duende en alto + freeze con push-in",
+   "src": "IMG_7040.MOV",
+   "pieces": [
+    {
+     "in": 1.0,
+     "out": 1.95,
+     "speed": 1
+    },
+    {
+     "freeze": 0.45
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.35,
+   "zoom": [
+    [
+     0,
+     1.15
+    ],
+    [
+     0.95,
+     1.25,
+     "linear"
+    ],
+    [
+     1.4,
+     1.5,
+     "out"
+    ]
+   ],
+   "punch": [
+    [
+     0.45,
+     0.2,
+     0.3
+    ]
+   ],
+   "flash": [
+    0.95
+   ]
+  },
+  {
+   "id": "03",
+   "nota": "Baile con la pantalla de lámpara: speed ramp a cámara lenta y salida acelerada",
+   "src": "IMG_7040.MOV",
+   "pieces": [
+    {
+     "in": 3.0,
+     "out": 4.0,
+     "speed": 1
+    },
+    {
+     "in": 4.0,
+     "out": 4.6,
+     "speed": [
+      1,
+      0.35
+     ]
+    },
+    {
+     "in": 4.6,
+     "out": 5.35,
+     "speed": 1.5
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "zoom": [
+    [
+     0,
+     1.0
+    ],
+    [
+     2.4,
+     1.25,
+     "ease"
+    ]
+   ]
+  },
+  {
+   "id": "04",
+   "nota": "Match cut: la pantalla de lámpara aparece paseando",
+   "src": "IMG_7692.MOV",
+   "pieces": [
+    {
+     "in": 0.25,
+     "out": 1.25,
+     "speed": 2
+    }
+   ],
+   "cx": 0.75,
+   "cy": 0.3,
+   "zoom": [
+    [
+     0,
+     1.7
+    ],
+    [
+     0.5,
+     1.5,
+     "linear"
+    ]
+   ],
+   "flash": [
+    0
+   ],
+   "zoom_out_trans": true
+  },
+  {
+   "id": "05",
+   "nota": "Entra el compañero con la camiseta de The Healthee Company",
+   "src": "IMG_7686.MOV",
+   "pieces": [
+    {
+     "in": 11.15,
+     "out": 12.75,
+     "speed": 1.6
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.45,
+   "zoom": [
+    [
+     0,
+     1.15
+    ],
+    [
+     1.0,
+     1.4,
+     "ease"
+    ]
+   ]
+  },
+  {
+   "id": "06",
+   "nota": "Decorando: se asoma al árbol (zoom progresivo)",
+   "src": "IMG_7039.MOV",
+   "pieces": [
+    {
+     "in": 1.2,
+     "out": 2.4,
+     "speed": 1.2
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.35,
+   "zoom": [
+    [
+     0,
+     1.05
+    ],
+    [
+     1.0,
+     1.35,
+     "ease"
+    ]
+   ]
+  },
+  {
+   "id": "07",
+   "nota": "La estrella: zoom-out que descubre",
+   "src": "IMG_7044.MOV",
+   "pieces": [
+    {
+     "in": 0.6,
+     "out": 2.6,
+     "speed": 2
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.45,
+   "zoom": [
+    [
+     0,
+     1.4
+    ],
+    [
+     1.0,
+     1.0,
+     "out"
+    ]
+   ]
+  },
+  {
+   "id": "08",
+   "nota": "Colgando eucalipto (acelerado)",
+   "src": "IMG_7042.MOV",
+   "pieces": [
+    {
+     "in": 4.0,
+     "out": 5.5,
+     "speed": 1.5
+    }
+   ],
+   "cx": 0.4,
+   "cy": 0.45,
+   "zoom": [
+    [
+     0,
+     1.2
+    ],
+    [
+     1.0,
+     1.3,
+     "linear"
+    ]
+   ]
+  },
+  {
+   "id": "09",
+   "nota": "Sonrisa a cámara: punch zoom cómico en la cara",
+   "src": "IMG_7041.MOV",
+   "pieces": [
+    {
+     "in": 0.6,
+     "out": 2.3,
+     "speed": 1
+    }
+   ],
+   "cx": 0.3,
+   "cy": 0.3,
+   "zoom": [
+    [
+     0,
+     1.1
+    ]
+   ],
+   "punch": [
+    [
+     0.9,
+     0.45,
+     0.25
+    ]
+   ]
+  },
+  {
+   "id": "10",
+   "nota": "Risas entre compañeros",
+   "src": "IMG_7042.MOV",
+   "pieces": [
+    {
+     "in": 0.5,
+     "out": 2.0,
+     "speed": 1
+    }
+   ],
+   "cx": 0.35,
+   "cy": 0.3,
+   "zoom": [
+    [
+     0,
+     1.2
+    ],
+    [
+     1.5,
+     1.35,
+     "linear"
+    ]
+   ],
+   "punch": [
+    [
+     0.9,
+     0.2,
+     0.25
+    ]
+   ]
+  },
+  {
+   "id": "11",
+   "nota": "A por la punta del árbol",
+   "src": "IMG_7040.MOV",
+   "pieces": [
+    {
+     "in": 6.4,
+     "out": 8.2,
+     "speed": 1.8
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.35,
+   "zoom": [
+    [
+     0,
+     1.1
+    ],
+    [
+     1.0,
+     1.3,
+     "ease"
+    ]
+   ]
+  },
+  {
+   "id": "12",
+   "nota": "Pose a cámara: punch zoom cómico + freeze",
+   "src": "IMG_7058.MOV",
+   "pieces": [
+    {
+     "in": 6.1,
+     "out": 7.6,
+     "speed": 1
+    },
+    {
+     "freeze": 0.3
+    }
+   ],
+   "cx": [
+    [
+     0,
+     0.55
+    ],
+    [
+     0.5,
+     0.68
+    ]
+   ],
+   "cy": 0.42,
+   "zoom": [
+    [
+     0,
+     1.15
+    ],
+    [
+     1.5,
+     1.25,
+     "linear"
+    ]
+   ],
+   "punch": [
+    [
+     0.55,
+     0.35,
+     0.25
+    ]
+   ],
+   "shake": [
+    [
+     1.5,
+     14,
+     0.25
+    ]
+   ]
+  },
+  {
+   "id": "13",
+   "nota": "El equipo llega (acelerado) + whip pan al momento estrella",
+   "src": "IMG_7039.MOV",
+   "pieces": [
+    {
+     "in": 7.0,
+     "out": 9.0,
+     "speed": 2
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "zoom": [
+    [
+     0,
+     1.0
+    ],
+    [
+     1.0,
+     1.15,
+     "linear"
+    ]
+   ],
+   "whip_out": "left"
+  },
+  {
+   "id": "14",
+   "nota": "MOMENTO ESTRELLA: baile con la guirnalda de luces",
+   "src": "IMG_7047.MOV",
+   "pieces": [
+    {
+     "in": 0.4,
+     "out": 1.3,
+     "speed": 1
+    },
+    {
+     "in": 1.3,
+     "out": 2.1,
+     "speed": [
+      1,
+      0.35
+     ]
+    },
+    {
+     "freeze": 0.25
+    }
+   ],
+   "cx": [
+    [
+     0,
+     0.66
+    ],
+    [
+     1.0,
+     0.55
+    ]
+   ],
+   "cy": 0.6,
+   "zoom": [
+    [
+     0,
+     1.45
+    ],
+    [
+     0.9,
+     1.55,
+     "linear"
+    ],
+    [
+     2.1,
+     1.8,
+     "ease"
+    ],
+    [
+     2.35,
+     1.95,
+     "out"
+    ]
+   ],
+   "flash": [
+    2.1
+   ]
+  },
+  {
+   "id": "15",
+   "nota": "Repetición cómica: rebobina y repite el giro (x2)",
+   "src": "IMG_7047.MOV",
+   "pieces": [
+    {
+     "in": 1.6,
+     "out": 2.1,
+     "speed": 2.5,
+     "reverse": true
+    },
+    {
+     "in": 1.6,
+     "out": 2.1,
+     "speed": 2.5
+    },
+    {
+     "in": 1.6,
+     "out": 2.1,
+     "speed": 2.5,
+     "reverse": true
+    },
+    {
+     "in": 1.6,
+     "out": 2.1,
+     "speed": 1.25
+    }
+   ],
+   "cx": 0.55,
+   "cy": 0.6,
+   "zoom": [
+    [
+     0,
+     1.95
+    ],
+    [
+     0.2,
+     1.6,
+     "hold"
+    ],
+    [
+     0.4,
+     1.95,
+     "hold"
+    ],
+    [
+     0.6,
+     1.6,
+     "hold"
+    ]
+   ]
+  },
+  {
+   "id": "16",
+   "nota": "Sigue el baile con sacudida de cámara en el golpe",
+   "src": "IMG_7047.MOV",
+   "pieces": [
+    {
+     "in": 2.1,
+     "out": 3.0,
+     "speed": 1
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.6,
+   "zoom": [
+    [
+     0,
+     1.55
+    ],
+    [
+     0.9,
+     1.35,
+     "linear"
+    ]
+   ],
+   "shake": [
+    [
+     0.0,
+     18,
+     0.3
+    ]
+   ]
+  },
+  {
+   "id": "17",
+   "nota": "Pareja bailando con las luces",
+   "src": "IMG_7047.MOV",
+   "pieces": [
+    {
+     "in": 3.0,
+     "out": 4.4,
+     "speed": 1.2
+    }
+   ],
+   "cx": 0.68,
+   "cy": 0.6,
+   "zoom": [
+    [
+     0,
+     1.6
+    ],
+    [
+     1.15,
+     1.75,
+     "linear"
+    ]
+   ],
+   "whip_out": "right"
+  },
+  {
+   "id": "18",
+   "nota": "Más baile con la guirnalda",
+   "src": "IMG_7046.MOV",
+   "pieces": [
+    {
+     "in": 13.0,
+     "out": 14.2,
+     "speed": 1
+    },
+    {
+     "in": 14.2,
+     "out": 15.2,
+     "speed": [
+      1,
+      0.45
+     ]
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.55,
+   "zoom": [
+    [
+     0,
+     1.35
+    ],
+    [
+     2.0,
+     1.6,
+     "ease"
+    ]
+   ],
+   "zoom_out_trans": true
+  },
+  {
+   "id": "19",
+   "nota": "El duende hace photobomb: cámara lenta + punch + freeze",
+   "src": "IMG_7693.MOV",
+   "pieces": [
+    {
+     "in": 9.6,
+     "out": 10.3,
+     "speed": 1
+    },
+    {
+     "in": 10.3,
+     "out": 11.1,
+     "speed": [
+      1,
+      0.4
+     ]
+    },
+    {
+     "freeze": 0.3
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.5,
+   "zoom": [
+    [
+     0,
+     1.0
+    ],
+    [
+     0.7,
+     1.05,
+     "linear"
+    ]
+   ],
+   "punch": [
+    [
+     1.0,
+     0.25,
+     0.25
+    ]
+   ],
+   "flash": [
+    0.7
+   ]
+  },
+  {
+   "id": "20",
+   "nota": "Reveal del árbol con estrellas (zoom-out)",
+   "src": "IMG_7044.MOV",
+   "pieces": [
+    {
+     "in": 9.3,
+     "out": 10.9,
+     "speed": 1.6
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.45,
+   "zoom": [
+    [
+     0,
+     1.6
+    ],
+    [
+     1.0,
+     1.0,
+     "out"
+    ]
+   ]
+  },
+  {
+   "id": "21",
+   "nota": "Reveal del árbol terminado: sube al lazo",
+   "src": "IMG_7058.MOV",
+   "pieces": [
+    {
+     "in": 8.0,
+     "out": 10.6,
+     "speed": 1.6
+    }
+   ],
+   "cx": 0.5,
+   "cy": 0.4,
+   "zoom": [
+    [
+     0,
+     1.2
+    ],
+    [
+     1.6,
+     1.0,
+     "out"
+    ]
+   ],
+   "whip_out": "right"
+  },
+  {
+   "id": "22",
+   "nota": "FINAL: grupo junto al árbol, zoom-out que descubre a todos + freeze",
+   "src": "IMG_7687.MOV",
+   "pieces": [
+    {
+     "in": 0.6,
+     "out": 4.8,
+     "speed": 1
+    },
+    {
+     "freeze": 0.8
+    }
+   ],
+   "cx": [
+    [
+     0,
+     0.68
+    ],
+    [
+     4.2,
+     0.5
+    ]
+   ],
+   "cy": [
+    [
+     0,
+     0.42
+    ],
+    [
+     4.2,
+     0.5
+    ]
+   ],
+   "zoom": [
+    [
+     0,
+     1.7
+    ],
+    [
+     4.2,
+     1.0,
+     "ease"
+    ],
+    [
+     5.0,
+     1.06,
+     "linear"
+    ]
+   ],
+   "flash": [
+    4.2
+   ]
+  }
+ ]
+}

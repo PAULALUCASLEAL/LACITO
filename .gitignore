@@ -1,0 +1,4 @@
+# Los vídeos no se suben a GitHub (privacidad): están en la sesión / se entregan aparte
+*.mp4
+*.MOV
+*.mov
